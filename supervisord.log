@@ -1,0 +1,141 @@
+2024-09-22 19:13:11,051 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:13:11,052 INFO supervisord started with pid 1
+2024-09-22 19:13:12,054 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:13:12,143 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:13:13,145 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:13:13,235 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:13:15,240 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:13:15,324 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:13:18,331 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:13:18,430 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:13:19,431 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:29:03,537 WARN received SIGQUIT indicating exit request
+2024-09-22 19:29:29,694 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:29:29,695 INFO supervisord started with pid 1
+2024-09-22 19:29:30,697 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:29:30,784 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:29:31,786 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:29:31,875 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:29:33,880 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:29:33,962 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:29:36,968 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:29:37,054 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:29:38,055 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:30:55,146 WARN received SIGQUIT indicating exit request
+2024-09-22 19:32:12,578 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:32:12,579 INFO supervisord started with pid 1
+2024-09-22 19:32:13,581 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:32:13,660 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:32:14,662 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:32:14,750 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:32:16,755 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:32:16,842 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:32:19,848 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:32:19,949 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:32:20,951 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:34:01,058 WARN received SIGQUIT indicating exit request
+2024-09-22 19:34:32,025 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:34:32,026 INFO supervisord started with pid 1
+2024-09-22 19:34:33,027 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:34:33,110 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:34:34,111 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:34:34,201 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:34:36,205 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:34:36,287 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:34:39,294 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:34:39,377 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:34:40,378 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:37:03,548 WARN received SIGQUIT indicating exit request
+2024-09-22 19:37:22,404 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:37:22,405 INFO supervisord started with pid 1
+2024-09-22 19:37:23,407 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:37:23,494 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:37:24,496 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:37:24,587 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:37:26,593 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:37:26,680 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:37:29,686 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:37:29,779 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:37:30,781 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:45:25,337 WARN received SIGQUIT indicating exit request
+2024-09-22 19:52:50,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:52:50,175 INFO supervisord started with pid 1
+2024-09-22 19:52:51,177 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:52:51,264 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:52:52,266 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:52:52,355 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:52:54,359 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:52:54,441 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:52:57,447 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:52:57,532 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:52:58,533 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 19:59:04,971 WARN received SIGQUIT indicating exit request
+2024-09-22 19:59:16,289 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 19:59:16,290 INFO supervisord started with pid 1
+2024-09-22 19:59:17,292 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 19:59:17,379 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:59:18,380 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 19:59:18,467 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:59:20,472 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 19:59:20,565 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:59:23,571 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 19:59:23,657 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 19:59:24,658 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 20:00:07,708 WARN received SIGQUIT indicating exit request
+2024-09-22 20:00:51,767 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 20:00:51,767 INFO supervisord started with pid 1
+2024-09-22 20:00:52,769 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 20:00:52,859 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:00:53,860 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 20:00:53,947 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:00:55,950 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 20:00:56,032 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:00:59,037 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 20:00:59,137 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:01:00,137 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 20:02:24,232 WARN received SIGQUIT indicating exit request
+2024-09-22 20:02:28,078 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 20:02:28,079 INFO supervisord started with pid 1
+2024-09-22 20:02:29,080 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 20:02:29,165 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:02:30,167 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 20:02:30,254 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:02:32,259 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 20:02:32,350 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:02:35,355 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 20:02:35,442 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:02:36,444 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 20:07:42,819 WARN received SIGQUIT indicating exit request
+2024-09-22 20:07:47,440 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 20:07:47,440 INFO supervisord started with pid 1
+2024-09-22 20:07:48,442 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 20:07:48,526 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:07:49,527 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 20:07:49,615 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:07:51,620 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 20:07:51,705 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:07:54,711 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 20:07:54,795 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:07:55,797 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 20:10:42,984 WARN received SIGQUIT indicating exit request
+2024-09-22 20:10:48,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 20:10:48,175 INFO supervisord started with pid 1
+2024-09-22 20:10:49,177 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 20:10:49,263 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:10:50,265 INFO spawned: 'laravel-worker_00' with pid 12
+2024-09-22 20:10:50,353 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:10:52,357 INFO spawned: 'laravel-worker_00' with pid 17
+2024-09-22 20:10:52,444 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:10:55,449 INFO spawned: 'laravel-worker_00' with pid 22
+2024-09-22 20:10:55,534 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2024-09-22 20:10:56,535 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-09-22 21:27:18,904 INFO reaped unknown pid 89 (exit status 0)
+2024-09-22 22:59:22,347 INFO reaped unknown pid 133 (exit status 0)
+2024-09-22 23:04:10,668 WARN received SIGQUIT indicating exit request
+2024-09-22 23:04:18,959 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-22 23:04:18,959 INFO supervisord started with pid 1
+2024-09-22 23:04:19,961 INFO spawned: 'laravel-worker_00' with pid 7
+2024-09-22 23:04:20,962 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-22 23:05:33,390 WARN received SIGQUIT indicating exit request
+2024-09-22 23:05:33,390 INFO waiting for laravel-worker_00 to die
+2024-09-22 23:05:33,392 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
