@@ -1,0 +1,48 @@
+{
+    "vhosts": [
+      {
+        "name": "source_data_vhost"
+      }
+    ],
+    "users": [
+      {
+        "name": "oleksandr",
+        "password_hash": "JkuESgIw4EOh8CgxoC41EXFvl3zWnkX5106B4U6uT337MVl3",
+        "hashing_algorithm": "rabbit_password_hashing_sha256",
+        "tags": "administrator"
+      }
+    ],
+    "permissions": [
+      {
+        "user": "oleksandr",
+        "vhost": "source_data_vhost",
+        "configure": ".*",
+        "write": ".*",
+        "read": ".*"
+      }
+    ],
+    "queues": [
+      {
+        "name": "source_data_queue",
+        "vhost": "source_data_vhost",
+        "durable": true,
+        "auto_delete": false,
+        "arguments": {
+          "x-queue-mode": "lazy",
+          "x-queue-type": "classic"
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "source": "amq.direct",
+        "vhost": "source_data_vhost",
+        "destination": "source_data_queue",
+        "destination_type": "queue",
+        "routing_key": "source_data_queue",
+        "arguments": {
+        }
+      }
+    ]
+  }
+  

@@ -35,6 +35,9 @@ services:
     ports:
       - '5672:5672'
       - '15672:15672'
+    volumes:
+      - ./docker/rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./docker/rabbitmq/definitions.json:/etc/rabbitmq/definitions.json
     networks:
       - app_network
 

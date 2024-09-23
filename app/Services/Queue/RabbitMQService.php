@@ -11,10 +11,8 @@ class RabbitMQService implements QueueServiceInterface
     {
         $connection = RabbitMQConnection::getConnection();
         $channel = $connection->channel();
-        $channel->queue_declare('source_data_queue', false, true, false, false);
-
-        $msg = new AMQPMessage(json_encode($data));
-        $channel->basic_publish($msg, '', 'source_data_queue');
+        $channel->queue_declare('source_data_queue', false, true, false, false, false, config('rabbitmq.queue.arguments'));
+        $channel->basic_publish(new AMQPMessage(json_encode($data)), '', 'source_data_queue');
 
         $channel->close();
     }

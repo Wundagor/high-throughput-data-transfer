@@ -20,3 +20,4 @@ yarn-error.log
 /.vscode
 /.zed
 /mysql_data
+/rabbitmq_data

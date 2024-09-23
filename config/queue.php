@@ -78,12 +78,20 @@ return [
             'port' => env('RABBITMQ_PORT', 5672),
             'username' => env('RABBITMQ_USER', 'guest'),
             'password' => env('RABBITMQ_PASSWORD', 'guest'),
+            'vhost' => env('RABBITMQ_VHOST', '/'),
             'queue' => env('RABBITMQ_QUEUE', 'default'),
+            'options' => [
+                'exchange' => [
+                    'name' => 'amq.direct',
+                    'type' => 'direct',
+                    'durable' => true,
+                ],
+            ],
         ],
 
     ],
 
-    /*
+    /*`
     |--------------------------------------------------------------------------
     | Job Batching
     |--------------------------------------------------------------------------
