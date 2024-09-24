@@ -33,9 +33,9 @@ class SendSourceData extends Command
         $channel = $connection->channel();
 
         try {
-            SourceData::chunk(100, function (Collection $records) use ($queueService) {
+            SourceData::chunk(100, function (Collection $records) use ($queueService, $channel) {
                 foreach ($records as $record) {
-                    $queueService->sendToQueue($record->toArray());
+                    $queueService->sendToQueue($channel, $record->toArray());
                 }
             });
         } finally {
