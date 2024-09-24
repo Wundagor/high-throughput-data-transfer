@@ -37,25 +37,31 @@ cd high-throughput-data-transfer
 cp .env.example .env
 ```
 
-### 3. Set Up Environment Variables
+### 3. Create the External Network
+
+```bash
+docker network create app_network
+```
+
+### 4. Run the Docker
 
 ```bash
 docker-compose up -d
 ```
 
-### 4. Run Migrations
+### 5. Run Migrations
 
 ```bash
 docker-compose exec app php artisan migrate
 ```
 
-### 5. Run Seeders
+### 6. Run Seeders
 
 ```bash
 docker-compose exec app php artisan db:seed
 ```
 
-### 6. Usage
+### 7. Usage
 
 ```bash
 docker-compose exec app php artisan app:send-source-data
