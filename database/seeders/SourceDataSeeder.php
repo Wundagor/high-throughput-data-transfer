@@ -16,7 +16,7 @@ class SourceDataSeeder extends Seeder
         $faker = Faker::create();
 
         DB::transaction(function () use ($faker) {
-            foreach (range(1, 10) as $index) {
+            foreach (range(1, 10000) as $index) {
                 DB::table('source_data')->insert([
                     'name' => $faker->unique()->name,
                     'description' => $faker->text,
