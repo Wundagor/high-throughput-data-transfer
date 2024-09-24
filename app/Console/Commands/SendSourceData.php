@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Core\Connections\RabbitMQConnection;
 use App\Models\SourceData;
 use App\Services\Queue\QueueServiceInterface;
 use Illuminate\Console\Command;
@@ -28,10 +29,18 @@ class SendSourceData extends Command
      */
     public function handle(QueueServiceInterface $queueService): void
     {
-        SourceData::chunk(100, function (Collection $records) use ($queueService) {
-            foreach ($records as $record) {
-                $queueService->sendToQueue($record->toArray());
-            }
-        });
+        $connection = RabbitMQConnection::getConnection();
+        $channel = $connection->channel();
+
+        try {
+            SourceData::chunk(100, function (Collection $records) use ($queueService) {
+                foreach ($records as $record) {
+                    $queueService->sendToQueue($record->toArray());
+                }
+            });
+        } finally {
+            $channel->close();
+            RabbitMQConnection::closeConnection();
+        }
     }
 }

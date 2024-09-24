@@ -3,17 +3,18 @@
 namespace App\Services\Queue;
 
 use PhpAmqpLib\Message\AMQPMessage;
-use App\Core\Connections\RabbitMQConnection;
+use PhpAmqpLib\Channel\AMQPChannel;
 
 class RabbitMQService implements QueueServiceInterface
 {
+    public function __construct(protected AMQPChannel $channel) {}
+
     public function sendToQueue(array $data): void
     {
-        $connection = RabbitMQConnection::getConnection();
-        $channel = $connection->channel();
-        $channel->queue_declare('source_data_queue', false, true, false, false, false, config('rabbitmq.queue.arguments'));
-        $channel->basic_publish(new AMQPMessage(json_encode($data)), '', 'source_data_queue');
+        $queue = env('RABBITMQ_QUEUE');
 
-        $channel->close();
+        $this->channel->queue_declare($queue, false, true, false, false, false);
+        $this->channel->basic_publish(new AMQPMessage(json_encode($data)), '', $queue);
     }
 }
+
